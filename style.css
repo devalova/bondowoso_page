@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.navbar {
+    height: 70px;
+    color: #fefefe;
+    width: 100%;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.33);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(100.8px);
+-webkit-backdrop-filter: blur(100.8px);
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+
+}
+
+.navbar img {
+
+    margin-left: 12px;
+    width: 63px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+
+    font-weight: 600;
+    font-size: 15px;
+    color: #fefefe;
+}
+
+.navbar ul li a:hover {
+    transform: scale(1.1);
+}
+
+.navbar a:hover {
+    color: #eee5e2;
+}
+
+.banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background.webp);
+    color: #ebd0c0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.banner .text {
+    width: 50%;
+
+}
+
+.content {
+    min-height: 80vh;
+    background-color: #c5985a;
+    align-items: center;
+    padding-top: 80px;
+    /* padding-bottom: 80px; */
+
+}
+
+.content .background {
+    display: flex;
+    justify-content: center;
+}
+
+.content .card-header {
+    text-align: center;
+    color: #845621;
+
+}
+
+.content .txt {
+    font-size: 12px;
+    color: #eee5e2;
+}
+
+.btn-all {
+    margin-top: 20px;
+    border-radius: 999px;
+    border: none;
+    background-color: #fefefe;
+    color: #132043;
+    padding: 10px 20px;
+}
+
+.background img {
+    margin-left: 10px;
+    margin-right: 20px;
+    height: 140px;
+    border-radius: 20px;
+
+}
+
+.background {
+    background-color: #845621;
+    height: 180px;
+    border-radius: 30px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.background:hover {
+    /* transform: scale(1.1); */
+    background-color: #5a240f;
+}
