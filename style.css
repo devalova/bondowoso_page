@@ -66,7 +66,7 @@ body {
 
 .banner {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(gerbong1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(gerbong1.jpg);
     color: #ebd0c0;
     background-size: cover;
     display: flex;
