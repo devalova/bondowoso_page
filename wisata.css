@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+.ijen {
+    height: 250vh;
+    background-color: rgb(97, 72, 44); 
+    
+    color: #fffefe;
+    
+    flex-direction: column;
+}
+.posisi-ijen{
+    padding: 40px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+
+.ijen img{
+    height: 350px;
+    right: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ijen .isi-ijen{
+    text-align: center;
+}
+
+.niagara {
+    height: 250vh;
+    background-color: rgb(146, 94, 94); 
+    
+    color: #fffefe;
+    
+    flex-direction: column;
+}
+.posisi-niagara{
+    padding: 40px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+
+.niagara img{
+    height: 350px;
+    right: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.niagara .isi-niagara{
+    text-align: center;
+}
+
+
+.blawan {
+    height: 250vh;
+    background-color: rgb(228, 124, 124); 
+    
+    color: #fffefe;
+    
+    flex-direction: column;
+}
+.posisi-blawan{
+    padding: 40px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+
+.blawan img{
+    height: 350px;
+    right: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.blawan .isi-blawan{
+    text-align: center;
+}
+   
+
+
+.galuh{
+    height: 250vh;
+    background-color: burlywood;
+    color: #fffefe;
+    flex-direction: column;
+}
+.posisi-galuh{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.galuh img{
+    height: 350px;
+    right: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.galuh .posisi-galuh{
+    text-align: center;
+}
+
+
+
+.kalipait {
+    height: 250vh;
+    background-color: rgb(228, 124, 124); 
+    
+    color: #fffefe;
+    
+    flex-direction: column;
+}
+
+
+
+.kalipait img{
+    height: 350px;
+    right: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.kalipait .isi-kalipait{
+    text-align: center;
+    padding: 40px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+
+.pelangi {
+    height: 250vh;
+    background-color: rgb(146, 94, 94); 
+    
+    color: #fffefe;
+    
+    flex-direction: column;
+}
+.posisi-pelangi{
+    padding: 40px;
+    margin-left: 130px;
+    margin-right: 130px;
+    text-align: center;
+}
+
+
+.pelangi img{
+    height: 350px;
+    right: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.tirta {
+    height: 250vh;
+    background-color: rgb(181, 43, 43); 
+    
+    color: #fffefe;
+    
+    flex-direction: column;
+}
+.posisi-tirta{
+    padding: 40px;
+    margin-left: 130px;
+    margin-right: 130px;
+    text-align: center;
+}
+
+
+.tirta img{
+    height: 350px;
+    right: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.batu {
+    height: 250vh;
+    background-color: rgb(142, 67, 67); 
+    
+    color: #fffefe;
+    
+    flex-direction: column;
+}
+.posisi-batu{
+    padding: 40px;
+    margin-left: 130px;
+    margin-right: 130px;
+    text-align: center;
+}
+
+
+.batu img{
+    height: 350px;
+    right: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.guesthouse {
+    height: 250vh;
+    background-color: rgb(130, 84, 84); 
+    
+    color: #fffefe;
+    
+    flex-direction: column;
+}
+.posisi-guesthouse{
+    padding: 40px;
+    margin-left: 130px;
+    margin-right: 130px;
+    text-align: center;
+}
+
+
+.guesthouse img{
+    height: 350px;
+    right: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.kawu {
+    height: 250vh;
+    background-color: rgb(125, 43, 43);    
+    color: #fffefe;    
+    flex-direction: column;
+}
+.posisi-kawu{
+    padding: 40px;
+    margin-left: 130px;
+    margin-right: 130px;
+    text-align: center;
+}
+
+
+.kawu img{
+    height: 350px;
+    right: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.tancak {
+    height: 250vh;
+    background-color: rgb(101, 62, 62);    
+    color: #fffefe;    
+    flex-direction: column;
+}
+.posisi-tancak{
+    padding: 40px;
+    margin-left: 130px;
+    margin-right: 130px;
+    text-align: center;
+}
+
+
+.tancak img{
+    height: 350px;
+    right: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
