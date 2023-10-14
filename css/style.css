@@ -55,7 +55,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: fixed;
+     position: fixed; 
     z-index: 99;
 
 }
@@ -93,7 +93,7 @@ body {
 
 .banner {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(gerbong1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../img/gerbong1.jpg);
     background-attachment: fixed;
     color: #fffefe;
     background-size: cover;
@@ -170,7 +170,7 @@ body {
 }
 .kesenian {
     min-height: 80vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(background.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../img/background.webp);
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
