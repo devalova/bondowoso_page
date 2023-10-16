@@ -10,12 +10,12 @@ body {
 }
 
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 10px;
 }
 
-::-webkit-scrollbar-thumb{
-    background-color: #702f15;
+::-webkit-scrollbar-thumb {
+    background-color: #ba9586;
     border-radius: 10px;
 }
 
@@ -24,22 +24,24 @@ body {
     background: #f1f1f1;
 }
 
-.btn-all{
+.btn-all {
     animation: putar 3s infinite;
 }
 
-@keyframes putar{
-    0%{
+@keyframes putar {
+    0% {
         transform: translate(0px);
     }
-    50%{
+
+    50% {
         transform: translate(20px);
     }
-    100%{
+
+    100% {
         transform: translate(0px);
-       
+
     }
-} 
+}
 
 .navbar {
     height: 70px;
@@ -50,12 +52,12 @@ body {
     /* border-radius: 16px; */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(100.8px);
--webkit-backdrop-filter: blur(100.8px);
+    -webkit-backdrop-filter: blur(100.8px);
     opacity: 0.7;
     display: flex;
     justify-content: space-around;
     align-items: center;
-     position: fixed; 
+    position: fixed;
     z-index: 99;
 
 }
@@ -88,7 +90,7 @@ body {
 
 .navbar a:hover {
     color: #ffb301;
-    transform: scale(1.1) ;
+    transform: scale(1.1);
 }
 
 .banner {
@@ -126,7 +128,7 @@ body {
 
 .content .card-header {
     text-align: center;
-    color: #56442d;
+    color: #f0e4e4;
 
 }
 
@@ -164,11 +166,12 @@ body {
 }
 
 .background:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
     background-color: #241a09;
-    
+
 }
-.kesenian {
+
+.kesenian {  
     min-height: 80vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../img/background.webp);
     background-repeat: no-repeat;
@@ -179,92 +182,180 @@ body {
     /* padding-bottom: 80px; */
 
 }
+
 .kesenian .judul-kesenian {
     text-align: center;
-    color: #cdc5ba;}
+    color: #cdc5ba;
+}
 
-    .background-kesenian {
-        background-color: #413627;
-        color: rgb(215, 196, 180);
-        text-align: center;
-        height: 467px;
-        width: 349px;
-        border-radius: 30px;
-        margin: 30px;      
-        align-items: center;
-        padding: 0 10px;
-        transition: all 0.5s ease-in-out;
-        
-      }
-      .background-kesenian img {
-        margin-left: 3px;
-        margin-top: 18px;
-        height: 246px;
-        border-radius: 35px;
-      }
-      .background-kesenian .isi-kesenian{
-       text-align: center;
-       /* margin-left: 10px;
+.background-kesenian {
+    background-color: #413627;
+    color: rgb(215, 196, 180);
+    text-align: center;
+    height: 467px;
+    width: 349px;
+    border-radius: 30px;
+    margin: 30px;
+    align-items: center;
+    padding: 0 10px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.background-kesenian img {
+    margin-left: 3px;
+    margin-top: 18px;
+    height: 246px;
+    border-radius: 35px;
+}
+
+.background-kesenian .isi-kesenian {
+    text-align: center;
+    /* margin-left: 10px;
        margin-right: 10px;
        margin-bottom: 15px; */
-      }
-       .posisi-kesenian .isi-kesenian {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        
-      }
+}
 
-      .wisata {
-        min-height: 80vh;
-        background-color: #cdc5ba;
-        
-        align-items: center;
-        padding-top: 80px;
-        height: 165vh;
-        /* padding-bottom: 80px; */
-    
-    }
-    .wisata .judul-wisata {
-        text-align: center;
-        color: #000000;}
-    
-        .background-wisata {
-            background-color: #413627;
-            color: rgb(215, 196, 180);
-            text-align: center;
-            height: 265px;
-            width: 200px;
-            border-radius: 30px;
-            margin: 30px;      
-            align-items: center;
-            padding: 0 10px;
-            transition: all 0.5s ease-in-out;
-            
-          }
-          .background-wisata img {
-            margin-left: 3px;
-            margin-top: 18px;
-            height: 170px;
-            border-radius: 14px;
-          }
-          .background-wisata .isi-wisata{
-           text-align: center;
-           /* margin-left: 10px;
+.posisi-kesenian .isi-kesenian {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.wisata {
+    min-height: 100vh;
+    background-color: #cdc5ba;
+    align-items: center;
+    padding: 80px 0;
+    /* padding-bottom: 80px; */
+
+}
+
+.wisata .judul-wisata {
+    text-align: center;
+    color: #000000;
+}
+
+.background-wisata {
+    background-color: #413627;
+    color: rgb(215, 196, 180);
+    text-align: center;
+    height: 265px;
+    width: 200px;
+    border-radius: 30px;
+    margin: 30px;
+    align-items: center;
+    padding: 0 10px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.background-wisata img {
+    margin-left: 3px;
+    margin-top: 18px;
+    height: 170px;
+    border-radius: 14px;
+}
+
+.background-wisata .isi-wisata {
+    text-align: center;
+    /* margin-left: 10px;
            margin-right: 10px;
            margin-bottom: 15px; */
-          }
-           .posisi-wisata .isi-wisata{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            
-          }
-          .background-wisata:hover {
-            transform: scale(1.1);
-            background-color: #241a09;
+}
 
-          }
+.posisi-wisata .isi-wisata {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.background-wisata:hover {
+    transform: scale(1.1);
+    background-color: #241a09;
+
+}
 
 
 
+.kuliner {
+    background-color: #413627;
+    color: #f1f1f1;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.seni-container {
+    height: 70vh;
+    width: auto;
+    background-color: var(--bg-1);
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    position: relative;
+}
+
+.seni-container .carousel {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s;
+}
+
+.seni-container .carousel .grub {
+    display: flex;
+    flex: 0 0 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+.seni-container .carousel .seni {
+    width: 40vw;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+    margin: 0 20px;
+    flex: 0 0 auto;
+}
+
+.seni-container .carousel .seni img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.seni-container .carousel .seni .isi {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 60%;
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: ease-in-out 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.seni-container .carousel .seni:hover .isi {
+    transform: scaleY(1);
+}
+
+.seni-container .carousel .seni .isi .judul {
+    color: var(--txt-1);
+    font-family: 'Courgette', cursive;
+}
