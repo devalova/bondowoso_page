@@ -9,6 +9,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a{
+    text-decoration: none;
+    list-style: none;
+}
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -189,23 +193,37 @@ body {
 }
 
 .background-kesenian {
-    background-color: #413627;
-    color: rgb(215, 196, 180);
+    background-color: #000000;
+    color: rgb(241, 229, 229);
     text-align: center;
-    height: 467px;
-    width: 349px;
-    border-radius: 30px;
-    margin: 30px;
+    height: 375px;
+    width: 345px;
+    border-radius: 45px;
+    margin: 90px;
     align-items: center;
-    padding: 0 10px;
+    padding:20px;
     transition: all 0.5s ease-in-out;
-
+    position: relative;
+    overflow: hidden;
+}
+.background-kesenian:hover .-kesenian{
+    transform: scaleY(1);
+}
+.background-kesenian .-kesenian{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: 0.7s;
 }
 
 .background-kesenian img {
-    margin-left: 3px;
-    margin-top: 18px;
-    height: 246px;
+    width: 100%;
+    height: 100%;
     border-radius: 35px;
 }
 
@@ -222,24 +240,36 @@ body {
     align-items: center;
 
 }
+.isi-kesenian .background-kesenian img:hover{
+transform: scale(1.1);
+transition: 1s;
+}
+
+
+
+
 
 .wisata {
     min-height: 100vh;
-    background-color: #cdc5ba;
+    background-color: #725a39;
     align-items: center;
     padding: 80px 0;
     /* padding-bottom: 80px; */
 
 }
 
+.wisata a{
+    color: #fff;
+}
+
 .wisata .judul-wisata {
     text-align: center;
-    color: #000000;
+    color: #ffffff;
 }
 
 .background-wisata {
     background-color: #413627;
-    color: rgb(215, 196, 180);
+    color: rgb(235, 228, 221);
     text-align: center;
     height: 265px;
     width: 200px;
@@ -274,7 +304,7 @@ body {
 
 .background-wisata:hover {
     transform: scale(1.1);
-    background-color: #241a09;
+    background-color: #2c2923;
 
 }
 
@@ -358,4 +388,62 @@ body {
 .seni-container .carousel .seni .isi .judul {
     color: var(--txt-1);
     font-family: 'Courgette', cursive;
+}
+
+
+
+.kuliner {  
+    min-height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../img/clint-mckoy-h28p96ICizo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding-top: 80px;
+    height: 120vh;
+    /* padding-bottom: 80px; */
+
+}
+
+.kuliner .judul-kuliner {
+    text-align: center;
+    color: #cdc5ba;
+}
+
+.background-kuliner {
+    background-color: #2e2a23;
+    color: rgb(215, 196, 180);
+    text-align: center;
+    height: 467px;
+    width: 349px;
+    border-radius: 30px;
+    margin: 30px;
+    align-items: center;
+    padding: 0 10px;
+    transition: all 0.5s ease-in-out;
+    padding: 40px;
+
+}
+
+.background-kuliner img {
+    height: 246px;
+    width: 246px;
+    border-radius: 35px;
+}
+
+.background-kuliner .isi-kuliner {
+    text-align: center;
+    
+    /* margin-left: 10px;
+       margin-right: 10px;
+       margin-bottom: 15px; */
+}
+
+.posisi-kuliner .isi-kuliner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.isi-kuliner .background-kuliner:hover{
+    transform: scale(1.1);
 }
