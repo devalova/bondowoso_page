@@ -3,10 +3,13 @@
     scroll-behavior: smooth;
     margin: 0;
 }
+body{
+    position: relative;
+}
 
 .ijen {
     height: 250vh;
-    background-color: rgb(97, 72, 44); 
+    background-color: rgb(134, 100, 61); 
     
     color: #fffefe;
     
@@ -31,7 +34,7 @@
 
 .niagara {
     height: 250vh;
-    background-color: rgb(146, 94, 94); 
+    background-color: rgb(177, 129, 93); 
     
     color: #fffefe;
     
@@ -57,7 +60,7 @@
 
 .blawan {
     height: 250vh;
-    background-color: rgb(228, 124, 124); 
+    background-color: rgb(158, 130, 96); 
     
     color: #fffefe;
     
@@ -84,7 +87,7 @@
 
 .galuh{
     height: 250vh;
-    background-color: burlywood;
+    background-color: rgb(120, 86, 42);
     color: #fffefe;
     flex-direction: column;
 }
@@ -106,7 +109,7 @@
 
 .kalipait {
     height: 250vh;
-    background-color: rgb(228, 124, 124); 
+    background-color: rgb(108, 80, 45); 
     
     color: #fffefe;
     
@@ -131,7 +134,7 @@
 
 .pelangi {
     height: 250vh;
-    background-color: rgb(146, 94, 94); 
+    background-color: rgb(146, 115, 94); 
     
     color: #fffefe;
     
@@ -156,7 +159,7 @@
 
 .tirta {
     height: 250vh;
-    background-color: rgb(181, 43, 43); 
+    background-color: rgb(100, 81, 54); 
     
     color: #fffefe;
     
@@ -181,7 +184,7 @@
 
 .batu {
     height: 250vh;
-    background-color: rgb(142, 67, 67); 
+    background-color: rgb(117, 90, 60); 
     
     color: #fffefe;
     
@@ -206,7 +209,7 @@
 
 .guesthouse {
     height: 250vh;
-    background-color: rgb(130, 84, 84); 
+    background-color: rgb(126, 85, 49); 
     
     color: #fffefe;
     
@@ -231,7 +234,7 @@
 
 .kawu {
     height: 250vh;
-    background-color: rgb(125, 43, 43);    
+    background-color: rgb(110, 83, 58);    
     color: #fffefe;    
     flex-direction: column;
 }
@@ -254,7 +257,7 @@
 
 .tancak {
     height: 250vh;
-    background-color: rgb(101, 62, 62);    
+    background-color: rgb(169, 128, 81);    
     color: #fffefe;    
     flex-direction: column;
 }
@@ -271,4 +274,19 @@
     right: 200px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.back-btn{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(49, 44, 44);
+    color: #fffefe;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
 }
