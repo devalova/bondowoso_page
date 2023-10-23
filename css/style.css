@@ -89,9 +89,21 @@ a{
     font-size: 15px;
     color: #fefefe;
 }
-
-
-
+.list li button{
+    background-color: #fff;
+    color: #725a39;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.list li button:hover{
+    background-color: #725a39;
+    color: #fff;
+    transition: 0.5s;
+    border: 1px solid #fff;
+}
+ 
 .navbar a:hover {
     color: #ffb301;
     transform: scale(1.1);
