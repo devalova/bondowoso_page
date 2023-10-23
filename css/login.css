@@ -6,13 +6,17 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../img/gerbong1.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .login-container {
-    background-color: #8B4513; /* Warna coklat */
+    background-color: rgba(139, 69, 19,0.5); /* Warna coklat */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
     width: 23rem;
     height: 25rem;
     display: flex;
